@@ -1,0 +1,5 @@
+.vscode
+bin/
+Application.dSYM/
+.DS_Store
+lib/SDL
