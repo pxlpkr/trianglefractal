@@ -19,6 +19,9 @@ mkbin:
 build: window.o
 	cc -o bin/app bin/src/window.o $(LIB_LINKS) -O2
 
+run: build
+	bin/app
+
 sdl:
 	mkdir -p bin/sdl
 	cmake -S lib/SDL -B bin/sdl
